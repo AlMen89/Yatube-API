@@ -49,6 +49,20 @@ python3 manage.py runserver
 
 ### Примеры
 
+Получение JWT-токена:
+
+```
+POST http://127.0.0.1:8000/api/v1/jwt/create/
+
+JSON:
+{
+
+    "username": "string",
+    "password": "string"
+
+}
+```
+
 Получение публикаций:
 
 ```
@@ -66,4 +80,12 @@ JSON:
   "image": "string",
   "group": 0
 }
+
+Использовать полученный ранее JWT-токен
 ```
+
+### Использованные технологии
+Django
+REST Framework
+Djoser
+GIT
