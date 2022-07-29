@@ -84,8 +84,9 @@ JSON:
 Использовать полученный ранее JWT-токен
 ```
 
+
 ### Использованные технологии
-Django
-REST Framework
-Djoser
-GIT
+- Django
+- REST Framework
+- Djoser
+- GIT
